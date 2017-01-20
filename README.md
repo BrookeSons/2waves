@@ -1,2 +1,3 @@
 # 2waves
-2Waves Media Web Site
+## 2Waves Media Static Web Site
+
