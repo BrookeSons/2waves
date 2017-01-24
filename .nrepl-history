@@ -1,0 +1,31 @@
+'waves
+'2waves
+(quote 2)
+'2
+(quote 2waves)
+(quote (waves))
+'waves
+exit
+target
+(print target)
+(markdown)
+(task markdown)
+(build)
+(deftask md [] (markdown))
+(md)
+md
+render -help
+render
+(render )
+(get-env)
+(get-env target)
+(get-env :target)
+(get-env resource-paths)
+(get-env :resource-paths)
+(get-env :target)
+(get-env :source-paths)
+(get-env :asset-paths)
+(get-env :drectores)
+(get-env :directories)
+ext
+exit
