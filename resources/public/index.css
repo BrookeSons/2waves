@@ -16,21 +16,26 @@ body {
   margin: 0;
   padding: 0;
 }
- 
+.top li {
+    list-style-type: none;
+    line-height: 100%;
+    color:#57c1e8;
+    font-size: 40px;
+    display-inline: block;
+    margin-right: 30px;
+    font-family: 'Baumans', cursive;
+    text-align: right;
+}
+
 .hero img {
-    margin-top: 02%;
+    margin-top: -07%;
     margin-right: 07%;
 }
 .hero p {
   font-size: 1.5em;
   font-weight: normal;
 }
-.menu {
-    height: 10vh;
-    margin: 0;
-    background-color:  black;
-    padding: 0;
-}
+ 
 
 #main-nav ul li {
   display: inline-block;
@@ -62,6 +67,8 @@ section.docs-section h3 {
   padding: 0;
 }
 
+
+}
 .plugins .plugin {
   list-style: none;
   text-align: left;
