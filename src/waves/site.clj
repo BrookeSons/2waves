@@ -12,21 +12,30 @@
       [:meta {:itemprop "author" :name "author" :content "2Waves (Rchard.Brooke@2wavesmeda.com)"}]
       [:link {:rel "stylesheet"  :href "https://fonts.googleapis.com/icon?family=Material+Icons"}]
       [:link {:rel "stylesheet"  :href "https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"}]
-      [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css?family=Baumans" }]
-       (include-js   "https://code.getmdl.io/1.3.0/material.min.js")
-      (include-css "/index.css")
-      [:link {:href "https://fonts.googleapis.com/css?family=Oswald" :rel "stylesheet" :type "text/css"}]]
-    [:body
-     [:div.top
-      [:ul
-       [:li "Contact Us"]
-       [:li "Our Work"]]]
-      [:div.hero
-       [:img {:src "/images/waves.png" :height "255px"}]
-        ; [:h1 "2Waves"]
-       ]
-      [:section.docs-section
-        [:h2.waves "2Waves Media"]
-        [:p "The Sport of the Shot"]
-        [:p ""]]]))
-
+      [:link {:rel "stylesheet"  :href "https://fonts.googleapis.com/css?family=Baumans" }]
+     (include-js   "https://code.getmdl.io/1.3.0/material.min.js")
+     (include-js "https://player.vimeo.com/api/player.js")
+     (include-css "/index.css")
+     [:link {:href "https://fonts.googleapis.com/css?family=Oswald" :rel "stylesheet" :type "text/css"}]]
+    [:div.mdl-layout.mdl-js-layout.mdl-layout
+      [:div.mdl-layout__drawer
+        [:span.mdl-layout__title "2Waves Media"]
+        [:nav.mdl-navigation
+        [:a.mdl-navigation__link "About Us"]
+        [:a.mdl-navigation__link "Our Work"]
+        [:a.mdl-navigation__link "Contact Us"]]]
+      [:body
+      [:div.main
+       [:div.hero
+         [:img {:src "/images/waves.png" :height "355px"}]
+       ]]
+       [:section 
+        [:div.mdl-grid
+         [:section.mdl-cell.mdl-cell--12-col
+          [:h2.waves "2Waves Media LLC"]
+          [:h3.waves "The Sport of the Shot"]
+          [:p "2Waves Media we get the job done"]]]]
+     [:div#vid.mdl-card.mdl-shadow--4dp
+      [:div.mdl-card__title
+       [:div.mdl-card__title-text "Our Featured Video"]]
+      [:div.mdl-card__media]]]]))

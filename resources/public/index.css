@@ -1,7 +1,6 @@
 html {
 }
 body {
-  background: url("/images/rm.jpg");
   background-color:  rgb(245, 241, 235);
   -webkit-background-size: 100%;
   background-size: 100%;
@@ -9,13 +8,15 @@ body {
   color: white;
 }
 .hero {
+    background: url("/images/rm.jpg");
+    background-size: 100%;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   height: 100vh;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-}
+} 
 .top li {
     list-style-type: none;
     line-height: 100%;
@@ -28,35 +29,43 @@ body {
 }
 
 .hero img {
-    margin-top: -07%;
-    margin-right: 07%;
+    margin-top: 3%;
+    float: right;
+    margin-right: 3%;
 }
 .hero p {
   font-size: 1.5em;
   font-weight: normal;
 }
  
+#vid {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-#main-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 1em;
-}
-#main-nav ul li a,
-#main-nav ul li a:visited {
-  color: white;
-}
-section.docs-section {
-  margin: 0 auto;
-  max-width: 800px;
+/* #main-nav ul li { */
+/*   display: inline-block; */
+/*   list-style: none; */
+/*   margin: 0 1em; */
+/* } */
+/* #main-nav ul li a, */
+/* #main-nav ul li a:visited { */
+/*   color: white; */
+/* } */
+section {
+  background-color:  rgb(245, 241, 235);
+  width: 100%;
+  margin: 10 auto;
   padding: 0;
   color: cyan;
   
 }
 
-section.docs-section h1,
-section.docs-section h2,
-section.docs-section h3 {
+section h1,
+section h2,
+section h3 {
+   
   text-align: center;
 }
 
