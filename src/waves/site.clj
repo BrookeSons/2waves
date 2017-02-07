@@ -23,7 +23,7 @@
         [:nav.mdl-navigation
         [:a.mdl-navigation__link "About Us"]
         [:a.mdl-navigation__link "Our Work"]
-         [:a.mdl-navigation__link {:href "https://medium.com/me/stories/public"}  "Our Blog" ] 
+        [:a.mdl-navigation__link {:href "https://medium.com/me/stories/public"}  "Our Blog" ] 
         [:a.mdl-navigation__link "Contact Us"]]]
       [:body
       [:div.main

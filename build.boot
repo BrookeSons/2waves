@@ -35,10 +35,8 @@
         (build-dev)
         (serve :resource-root "public")))
 
-
 (deftask deploy
-  []
+   []
   (comp
    (build)
-   (sift :include #{#"^public/"})
-   (sift :move {#"^public/" ""})))
+   (target)))
