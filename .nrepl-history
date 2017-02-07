@@ -29,3 +29,10 @@ render
 (get-env :directories)
 ext
 exit
+(build-dev)
+target
+(printf target)
+(printf (str target))
+(def target "target/")
+(target "public/")
+exit
