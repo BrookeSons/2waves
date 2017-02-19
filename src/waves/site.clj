@@ -14,15 +14,13 @@
      [:link {:rel "stylesheet" :href "https://code.getmdl.io/1.3.0/material.min.css"}]
      [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css?family=Montserrat"}]
      [:link {:rel "stylesheet" :href "styles.css" }]] 
-    
 
        [:style#view-source {:position "fixed" :display "block" :right "0" :bottom "0" :margin-right "40px" :margin-bottom "40px" :z-index "900" } ]
-       
-
+ 
        [:body
         [:div.mdl-layout__container
-         [:div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header.has-drawer.is-upgraded
-          [:div.waves-header.mdl-layout__header.mdl-layout__header--waterfall 
+         [:div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+          [:div.waves-header.mdl-layout__header.mdl-layout__header--waterfall
            [:div.mdl-layout__header-row
             [:span.waves-title.mdl-layout-title
              [:img.waves-logo-image {:src "images/waves-horizontal.png"}]]
@@ -47,16 +45,16 @@
             [:a.mdl-navigation__link "About Us"]
             [:a.mdl-navigation__link "Our Work"]
             [:a.mdl-navigation__link {:href "https://medium.com/me/stories/public"}  "Our Blog" ]
-            [:a.mdl-navigation__link "Contact Us"]]]]
+            [:a.mdl-navigation__link "Contact Us"]]]
 
 
 
-         [:div.android-content.mdl-layout__content
-          [:a {:name "top"}]
-          [:div.waves-about.mdl-typography--text-center
-           [:div.logo-font.waves-slogan "The Sport of the Shot"]]]
+          [:div.android-content.mdl-layout__content
+           [:a {:name "top"}]
+           [:div.waves-about.mdl-typography--text-center
+            [:div.logo-font.waves-slogan "The Sport of the Shot"]
+            [:div.logo-font.wave-slogan "We are a video production Company"]]]]
 
 
-
-         ]])
-  )
+         [:script {:src "https://code.getmdl.io/1.3.0/material.min.js"}]
+         ]]))
