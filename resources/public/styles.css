@@ -66,6 +66,12 @@ a img{
   width: 160px;
 }
 
+.waves-logo-square {
+    height: 108px;
+    width: 108px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
 
 .waves-header {
   overflow: visible;

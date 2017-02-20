@@ -40,7 +40,7 @@
 
           [:div.waves-drawer.mdl-layout__drawer
            [:span.waves-title.mdl-layout-title
-            [:img.waves-logo-image {:src "images/waves-horizontal.png"}]]
+            [:img.waves-logo-square {:src "images/waves.png"}]]
            [:nav.mdl-navigation
             [:a.mdl-navigation__link "About Us"]
             [:a.mdl-navigation__link "Our Work"]
@@ -49,12 +49,19 @@
 
 
 
-          [:div.android-content.mdl-layout__content
+          [:div.waves-content.mdl-layout__content
            [:a {:name "top"}]
            [:div.waves-about.mdl-typography--text-center
-            [:div.logo-font.waves-slogan "The Sport of the Shot"]
-            [:div.logo-font.wave-slogan "We are a video production Company"]]]]
+            [:div.logo-font.waves-slogan "The Sport of the Shot"] 
+            [:div.logo-font.waves-slogan "We are a video production Company"]
+            [:div.logo-font.waves-slogan "In Charlotte, North Carolina"]
+            [:div.android-wear-section.mdl-cell.mdl-cell--6-col
+             [:p "" ]]]]]
 
+         [:footer.waves-footer.mdl-mega-footer
+          [:div.mdl-mega-footer--top-section
+           [:div.mdl-mega-footer--left-section
+            [:button.mdl-mega-footer--social-btn]]]]
 
          [:script {:src "https://code.getmdl.io/1.3.0/material.min.js"}]
          ]]))
