@@ -55,6 +55,23 @@
             [:div.logo-font.waves-slogan "The Sport of the Shot"] 
             [:div.logo-font.waves-slogan "We are a video production Company"]
             [:div.logo-font.waves-slogan "In Charlotte, North Carolina"]]
+
+           [:div.mdl-grid.video-blog
+            [:div.mdl-cell.mdl-cell--4-col
+             [:iframe {:src "https://player.vimeo.com/video/119931177?title=0&byline=0&portrait=0"
+                       :width "385" :height "217" :frameborder "0"}
+              "webkitallowfullscreen mozallowfullscreen allowfullscreen" ]
+             ]
+            [:div.mdl-cell.mdl-cell--4-col
+             [:iframe {:src "https://player.vimeo.com/video/24402425?title=0&byline=0&portrait=0"
+                       :width "385" :height "217" :frameborder "0"}
+              "webkitallowfullscreen mozallowfullscreen allowfullscreen" ]]
+            [:div.mdl-cell.mdl-cell--4-col
+             [:iframe {:src "https://player.vimeo.com/video/26543156?title=0&byline=0&portrait=0"
+                       :width "385" :height "217" :frameborder "0"}
+              "webkitallowfullscreen mozallowfullscreen allowfullscreen" ]]
+             ]
+ 
            [:div.mdl-grid
             [:div.mdl-cell.mdl-cell--4-col]
             [:div.mdl-cell.mdl-cell--4-col

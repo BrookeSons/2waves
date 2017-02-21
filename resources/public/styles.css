@@ -176,9 +176,14 @@ a img{
       bottom: 16px;
     }
 
+    .video-blog {
+        border-top: solid;
+        margin-top: 40px;
+    }
+
   .contact {
       margin-left : 40px;
-      margin-top: 40px;
+      margin-top: 40px; 
       padding-bottom: 20px;
       padding-left: 10px;
       padding-right: 10px;
