@@ -35,8 +35,8 @@
              [:nav.waves-navigation.mdl-navigation
               [:a.mdl-navigation__link.mdl-typography--text-uppercase "About Us"]
               [:a.mdl-navigation__link.mdl-typography--text-uppercase "Our Work"]
-              [:a.mdl-navigation__link.mdl-typography--text-uppercase  "Our Blog" ]
-              [:a.mdl-navigation__link.mdl-typography--text-uppercase "Contact Us"]]]]]
+              [:a.mdl-navigation__link.mdl-typography--text-uppercase {:href "#blog"} "Video Blog" ]
+              [:a.mdl-navigation__link.mdl-typography--text-uppercase {:href "#contact"} "Contact Us"]]]]]
 
           [:div.waves-drawer.mdl-layout__drawer
            [:span.waves-title.mdl-layout-title
@@ -44,8 +44,8 @@
            [:nav.mdl-navigation
             [:a.mdl-navigation__link "About Us"]
             [:a.mdl-navigation__link "Our Work"]
-            [:a.mdl-navigation__link {:href "https://medium.com/me/stories/public"}  "Our Blog" ]
-            [:a.mdl-navigation__link "Contact Us"]]]
+            [:a.mdl-navigation__link {:href "#blog"}  "Video Blog" ]
+            [:a.mdl-navigation__link {:href "#contact"} "Contact Us"]]]
 
 
 
@@ -56,7 +56,7 @@
             [:div.logo-font.waves-slogan "We are a video production Company"]
             [:div.logo-font.waves-slogan "In Charlotte, North Carolina"]]
 
-           [:div.mdl-grid.video-blog
+           [:div#blog.mdl-grid.video-blog
             [:div.mdl-cell.mdl-cell--4-col
              [:iframe {:src "https://player.vimeo.com/video/119931177?title=0&byline=0&portrait=0"
                        :width "385" :height "217" :frameborder "0"}
@@ -72,7 +72,7 @@
               "webkitallowfullscreen mozallowfullscreen allowfullscreen" ]]
              ]
  
-           [:div.mdl-grid
+           [:div#contact.mdl-grid
             [:div.mdl-cell.mdl-cell--4-col]
             [:div.mdl-cell.mdl-cell--4-col
              [:div.contact.wave-card-wide.mdl-card.mdl-shadow--2dp
@@ -92,15 +92,6 @@
                 [:label.mdl-textfield__label {:for "comments"} "Comments..." ]]
                [:button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect "Submit"]
                ]]]]]]
-
-         ;; <!-- Simple Textfield -->
-         ;; <form action="#">
-         ;; <div class="mdl-textfield mdl-js-textfield">
-         ;; <input class="mdl-textfield__input" type="text" id="sample1">
-         ;; <label class="mdl-textfield__label" for="sample1">Text...</label>
-         ;; </div>
-         ;; </form>
-
 
          [:footer.waves-footer.mdl-mega-footer
           [:div.mdl-mega-footer--top-section

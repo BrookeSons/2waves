@@ -1,4 +1,4 @@
 
-![2waves-logo-small](2 Waves_RGB.png)
+![2waves-logo-small](waves.png)
 ## 2Waves Media Static Web Site
 
