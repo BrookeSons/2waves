@@ -54,9 +54,36 @@
            [:div.waves-about.mdl-typography--text-center
             [:div.logo-font.waves-slogan "The Sport of the Shot"] 
             [:div.logo-font.waves-slogan "We are a video production Company"]
-            [:div.logo-font.waves-slogan "In Charlotte, North Carolina"]
-            [:div.android-wear-section.mdl-cell.mdl-cell--6-col
-             [:p "" ]]]]]
+            [:div.logo-font.waves-slogan "In Charlotte, North Carolina"]]
+           [:div.mdl-grid
+            [:div.mdl-cell.mdl-cell--4-col]
+            [:div.mdl-cell.mdl-cell--4-col
+             [:div.contact.wave-card-wide.mdl-card.mdl-shadow--2dp
+              [:div.mdl-card__title
+               [:h2.mdl-card__title-text "Contact Us"]]
+              [:form {:action "#"}
+               [:div.mdl-textfield.mdl-js-textfield
+                [:input.mdl-textfield__input {:type "text" :id "name"}
+                 [:label.mdl-textfield__label {:for "name"} "Name..." ]]]
+               
+               [:div.mdl-textfield.mdl-js-textfield
+                [:input.mdl-textfield__input {:type "text" :id "email"}
+                 [:label.mdl-textfield__label {:for "email"} "Email..." ]]]
+
+               [:div.mdl-textfield.mdl-js-textfield
+                [:textarea.mdl-textfield__input {:type "text" :id "comments" :rows "4" :cols "20"}]
+                [:label.mdl-textfield__label {:for "comments"} "Comments..." ]]
+               [:button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect "Submit"]
+               ]]]]]]
+
+         ;; <!-- Simple Textfield -->
+         ;; <form action="#">
+         ;; <div class="mdl-textfield mdl-js-textfield">
+         ;; <input class="mdl-textfield__input" type="text" id="sample1">
+         ;; <label class="mdl-textfield__label" for="sample1">Text...</label>
+         ;; </div>
+         ;; </form>
+
 
          [:footer.waves-footer.mdl-mega-footer
           [:div.mdl-mega-footer--top-section
